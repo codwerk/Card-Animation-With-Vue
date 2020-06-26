@@ -1,7 +1,6 @@
 <template lang="pug">
-  <div id="app">
-    Card
-  </div>
+  #app
+    Card(:card="card" v-for="(card, index) in cards" :key="index")
 </template>
 
 <script>
@@ -11,6 +10,36 @@ export default {
   name: 'App',
   components: {
     Card
+  },
+  data () {
+    return {
+       cards: [
+         {
+           title: "1-Lorem ipsum dolor sit amet consectetur",
+           description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi alias fuga soluta labore ducimus voluptatem esse mollitia similique ea sed!',
+           img: '/appstore_01.jpg',
+           open: false
+         },
+         {
+           title: "2-Lorem ipsum dolor sit amet consectetur",
+           description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi alias fuga soluta labore ducimus voluptatem esse mollitia similique ea sed!',
+           img: '/appstore_02.jpg',
+           open: false
+         },
+         {
+           title: "3-Lorem ipsum dolor sit amet consectetur",
+           description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi alias fuga soluta labore ducimus voluptatem esse mollitia similique ea sed!',
+           img: '/appstore_03.jpg',
+           open: false
+         },
+         {
+           title: "4-Lorem ipsum dolor sit amet consectetur",
+           description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi alias fuga soluta labore ducimus voluptatem esse mollitia similique ea sed!',
+           img: '/appstore_04.jpg',
+           open: false
+         }
+       ]
+    }
   }
 }
 </script>
