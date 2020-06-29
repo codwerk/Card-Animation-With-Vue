@@ -15,25 +15,25 @@ export default {
     return {
        cards: [
          {
-           title: "1-Lorem ipsum dolor sit amet consectetur",
+           title: "I - Lorem ipsum dolor sit amet consectetur",
            description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi alias fuga soluta labore ducimus voluptatem esse mollitia similique ea sed!',
            img: '/appstore_01.jpg',
            open: false
          },
          {
-           title: "2-Lorem ipsum dolor sit amet consectetur",
+           title: "II - Lorem ipsum dolor sit amet consectetur",
            description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi alias fuga soluta labore ducimus voluptatem esse mollitia similique ea sed!',
            img: '/appstore_02.jpg',
            open: false
          },
          {
-           title: "3-Lorem ipsum dolor sit amet consectetur",
+           title: "III - Lorem ipsum dolor sit amet consectetur",
            description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi alias fuga soluta labore ducimus voluptatem esse mollitia similique ea sed!',
            img: '/appstore_03.jpg',
            open: false
          },
          {
-           title: "4-Lorem ipsum dolor sit amet consectetur",
+           title: "IV - Lorem ipsum dolor sit amet consectetur",
            description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi alias fuga soluta labore ducimus voluptatem esse mollitia similique ea sed!',
            img: '/appstore_04.jpg',
            open: false
