@@ -1,4 +1,6 @@
-# card-animation-vue
+# Card Animation With Vue JS
+
+>Animation des cards avec Vue JS. Voici une solution sur la façon dont vous pouvez implémenter cela sans aucune bibliothèque ou outil supplémentaire. Vous pouvez également le faire avec du JavaScript vanille. Utiliser Vue JS car cela simplifie certaines choses.
 
 ## Project setup
 ```
